@@ -53,7 +53,7 @@ import axios from 'axios';
             procesarNew: function(){
                 let self = this
                 
-                /*axios.get("http://127.0.0.1:8000/product/"+self.product.bar_code)
+                /*axios.get("https://spring3-g2m3-6-api.herokuapp.com/product/"+self.product.bar_code)
                     .then((result)=>{
                         alert(result.data.stock)
                     })
