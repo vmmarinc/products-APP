@@ -53,7 +53,7 @@ import axios from 'axios';
             procesarNew: function(){
                 let self = this               
                 
-                axios.post("https://spring3-g2m3-6-api.herokuapp.com/product/", self.product, {headers: {}})
+                axios.post("https://sprint-g2m3-e6-api.herokuapp.com/product/", self.product, {headers: {}})
                     .then((result)=>{
                         alert("Se creo correctamente") 
                     })
