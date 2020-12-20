@@ -1,7 +1,7 @@
 <template>
     <div id="consultProduct">
         <div class="title">
-            <h2>Consultar Producto wedfawf</h2>
+            <h2>Consultar Producto</h2>
         </div>
 
         <div class="buttons">
