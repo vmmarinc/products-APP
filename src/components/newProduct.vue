@@ -51,18 +51,9 @@ import axios from 'axios';
                 this.$router.push({name: "inicio"})
             },
             procesarNew: function(){
-                let self = this
+                let self = this               
                 
-                /*axios.get("https://spring3-g2m3-6-api.herokuapp.com/product/"+self.product.bar_code)
-                    .then((result)=>{
-                        alert(result.data.stock)
-                    })
-                    .catch((error)=>{
-                        self.hay_datos = false
-                        alert("ERROR: " + error.response.status)
-                    })
-*/
-                axios.post("http://localhost:8000/product/", self.product, {headers: {}})
+                axios.post("https://spring3-g2m3-6-api.herokuapp.com/product/", self.product, {headers: {}})
                     .then((result)=>{
                         alert("Se creo correctamente") 
                     })
