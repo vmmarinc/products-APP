@@ -53,7 +53,7 @@ import axios from 'axios';
             },
             procesarConsulta: function(){
                 let self = this
-                axios.get("https://spring3-g2m3-6-api.herokuapp.com/product/"+self.code)
+                axios.get("https://sprint4-g2m3-e6-api.herokuapp.com/product/"+self.code)
                     .then((result)=>{
                         self.product.name = result.data.name
                         self.product.price = result.data.price
