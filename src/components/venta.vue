@@ -57,7 +57,7 @@ import axios from 'axios';
                         alert("ERROR: " + error.response.status)
                     })
 */
-                axios.put("https://spring3-g2m3-6-api.herokuapp.com/product/", self.product, {headers: {}})
+                axios.put("https://sprint4-g2m3-e6-api.herokuapp.com/product/", self.product, {headers: {}})
                     .then((result)=>{
                         alert("Se actualizo correctamente") 
                     })
