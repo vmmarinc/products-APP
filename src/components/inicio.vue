@@ -7,6 +7,7 @@
         <div class="buttons">
             <button v-on:click="procesarConsulta">Consultar Producto</button>
             <button v-on:click="procesarVenta">Venta</button>
+            <button v-on:click="newProduct">Agregar Nuevo Producto</button>
             <br>
         </div>
     </div>
@@ -28,6 +29,9 @@
             },
             procesarVenta: function(){
                 this.$router.push({name: "venta"})
+            },
+            newProduct: function(){
+                this.$router.push({name: "newProduct"})
             }
         },
     }
